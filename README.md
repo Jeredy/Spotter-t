@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+Project Title: Hosted Web App for Data Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description:
+Developed a robust web application using React and Material UI to provide two distinct data visualization and analysis views: a dynamic table with a corresponding bar chart and a pivot table with a pivot chart. Both views are interactive and update in real-time as the underlying data changes.
 
-## Available Scripts
+Key Features:
 
-In the project directory, you can run:
+Table View:
+Pagination, column filters, sorting, and search functionality for easy navigation and data management.
+Customizable column display, allowing users to adjust the size and order of columns.
+Data validation applied to ensure correct data input, especially for datetime fields.
+Editable data cells with persistence, ensuring data is saved even after closing the browser.
+Integrated bar chart displaying the number of companies that went "Out of Service" per month, automatically updating as table data changes.
+Pivot Table View:
+Interactive pivot table allowing users to manipulate and analyze data from multiple perspectives.
+Corresponding pivot chart that synchronizes with the pivot table, reflecting real-time data updates.
+Technologies Used:
 
-### `npm start`
+Frontend: React, Material UI
+Data Handling: JavaScript, Context API/Redux for state management
+Visualization: Chart.js, Recharts, or equivalent library for creating bar charts and pivot charts
+Other Tools: Webpack, Babel for module bundling and transpiling, Git for version control
+Achievements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Streamlined complex data interactions into a user-friendly interface.
+Implemented real-time updates and data persistence, enhancing user experience.
+Ensured high-quality user input through rigorous data validation and error handling.
+Challenges Overcome:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Managed state synchronization between the table view and charts.
+Ensured smooth user interactions despite complex data manipulation requirements.
