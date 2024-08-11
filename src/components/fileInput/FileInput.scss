@@ -1,0 +1,48 @@
+.file-uploader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+}
+
+.file-label {
+    padding: 10px 20px;
+    background-color: #282828DD;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.file-label.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.file-label:hover:not(.disabled) {
+    background-color: #282828DD;
+}
+
+.file-input {
+    display: none;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #28282899;
+    width: 15px;
+    height: 15px;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,9 @@
+.datatable {
+  flex: 1;
+  width: calc(100vw - 200px);
+  
+  .dataGrid{
+    padding: 0px 20px 20px 20px;
+    height: calc(100vh - 370px);
+  }
+}
