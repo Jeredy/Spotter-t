@@ -1,4 +1,4 @@
-##Project Title: Hosted Web App for Data Visualization
+Project Title: Hosted Web App for Data Visualization
 
 Description:
 Developed a robust web application using React and Material UI to provide two distinct data visualization and analysis views: a dynamic table with a corresponding bar chart and a pivot table with a pivot chart. Both views are interactive and update in real-time as the underlying data changes.
